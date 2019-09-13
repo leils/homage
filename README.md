@@ -6,4 +6,7 @@ A small website to pay homage to ______, for a Gray Area project.
 2. Then, you can navigate to the style folder `cd style`, and run `sass --watch sass/comic.scss stylesheets/comic.css`
 3. Your command line now is running a program that will translate the `.scss` file to a `.sass` file. Set it and forget it!
 
+## An intro to basic git stuff
+[Git Guide](https://rogerdudler.github.io/git-guide/)
+
 Collaborators:
