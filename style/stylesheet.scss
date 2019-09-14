@@ -24,7 +24,9 @@ body {
   background: $body-background;
   display: flex;
 }
-
+#delorian{
+  width: 200px;
+}
 // The background is the div holding our title and the map.
 .background {
   width: 100%;
@@ -97,4 +99,3 @@ body {
     width: 380px;
   }
 }
-
