@@ -26,7 +26,6 @@ body {
 }
 #title{
   font-family: 'Righteous', cursive;
-
 }
 
 #map {
@@ -50,7 +49,7 @@ body {
 }
 
 #delorian{
-  width: 100px;
+  width: 200px;
 }
 
 .show-card {
