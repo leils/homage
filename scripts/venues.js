@@ -12,6 +12,8 @@ let venues = [
   { name: "Independent", venueId: "independent", location: [37.775614, -122.437706] },
   { name: "Neck of the Woods", venueId: "neck", location: [37.783139, -122.463752] },
   { name: "The Knockout", venueId: "knockout", location: [37.745185, -122.419981] },
+  { name: "Mezzanine", venueId: "mezzanine", location: [37.782586, -122.408052] },
+
 ]
 
 let videos = [
