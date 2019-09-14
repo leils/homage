@@ -12,25 +12,21 @@ let venues = [
   { name: "Independent", venueId: "independent", location: [37.775614, -122.437706] },
   { name: "Neck of the Woods", venueId: "neck", location: [37.783139, -122.463752] },
   { name: "The Knockout", venueId: "knockout", location: [37.745185, -122.419981] },
-
-
 ]
 
 let videos = [
 {artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
-{artist: "Boogarins", date: "Sep/21/2019 7:30 PM", blurb: "Also cool name", venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
+{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"},
 
 ]
