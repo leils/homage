@@ -16,6 +16,9 @@ let venues = [
 
 let videos = [
 {artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"},
+{artist: "Tanukichan", video: "https://www.youtube.com/watch?v=zVengx0MLA0",  venueId: "independent"},
+{artist: "Battles", video: "https://www.youtube.com/watch?v=bkhLzHuUYmo",  venueId: "fillmore"},
+{artist: "Belles Atlas", video: "https://www.youtube.com/watch?v=bTtq1DB7-V4",  venueId: "rickshaw"},
 
 
 ]
