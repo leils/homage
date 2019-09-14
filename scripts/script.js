@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("#showCardButton").click(function() {
-    $("#card").slideToggle("slow");
+    // Adds the "visible" class to the card.
+    $("#card").toggleClass("visible");
   });
-
-  $("#showCardButton").css("border", "3px solid green");
 });
