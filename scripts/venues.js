@@ -17,10 +17,15 @@ let venues = [
 ]
 
 let videos = [
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"},
-{artist: "Tanukichan", video: "https://www.youtube.com/watch?v=zVengx0MLA0",  venueId: "independent"},
-{artist: "Battles", video: "https://www.youtube.com/watch?v=bkhLzHuUYmo",  venueId: "fillmore"},
-{artist: "Belles Atlas", video: "https://www.youtube.com/watch?v=bTtq1DB7-V4",  venueId: "rickshaw"},
-
-
+{artist: "The Marias", video: "https://www.youtube.com/embed/YzKM5g_FwYU?autoplay=1", venueId: "swedish"},
+{artist: "Tim Hecker", video: "https://www.youtube.com/embed/dh9aJabs-E4?autoplay=1",  venueId: "independent"},
+{artist: "Dan Deacon", video: "https://www.youtube.com/embed/XnXiXlF7olo?autoplay=1",  venueId: "gamh"},
+{artist: "Oh Sees", video: "https://www.youtube.com/embed/R44Qh2P7wo0?autoplay=1",  venueId: "chapel"},
+{artist: "Autechre", video: "https://www.youtube.com/embed/9RQFxBFhGl4?autoplay=1",  venueId: "mezzanine"},
+{artist: "Deerhoof", video: "https://www.youtube.com/embed/ckqicsZD2xI?autoplay=1",  venueId: "bottom"},
+{artist: "Golden Drugs", video: "https://www.youtube.com/embed/-XPfHFbaLXE?autoplay=1",  venueId: "parkside"},
+{artist: "Everyone Is Dirty", video: "https://www.youtube.com/embed/o_yVIDJi6yY?autoplay=1",  venueId: "knockout"},
+{artist: "Tanukichan", video: "https://www.youtube.com/embed/zVengx0MLA0?autoplay=1", venueId: "independent"},
+{artist: "Battles", video: "https://www.youtube.com/embed/bkhLzHuUYmo?autoplay=1", venueId: "fillmore"},
+{artist: "Belles Atlas", video: "https://www.youtube.com/embed/bTtq1DB7-V4?autoplay=1", venueId: "rickshaw"},
 ]
