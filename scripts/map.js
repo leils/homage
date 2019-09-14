@@ -1,10 +1,10 @@
 $(document).ready(() => {
   const svg = d3.select('#map').append('svg');
+  const videoLayer = d3.select('#map').append('div').attr('id', 'video-layer');
 
   // Add separate groups for the base map and the venue points to ensure the venues render on top
   // of the map. Order matters!
   const baseMapGroup = svg.append('g');
-  const venueGroup = svg.append('g');
 
   // California Albers projection, see:
   // https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c
@@ -16,6 +16,19 @@ $(document).ready(() => {
     sfMesh = topojson.mesh(sf);
 
     baseMapGroup.append('path');
+
+    // Add all the videos
+    venues.forEach(venue => {
+      const videoObj = videos.find(video => video.venueId === venue.venueId);
+
+      if (videoObj != null) {
+        videoLayer.append('iframe')
+          .attr('id', videoObj.venueId)
+          .attr('src', videoObj.video)
+          .attr('allow', 'autoplay');
+      }
+    });
+
     resizeMap();
     $(window).resize(resizeMap);
   });
@@ -23,17 +36,20 @@ $(document).ready(() => {
   function resizeMap() {
     const mapContainer = $('#map');
 
-    projection.fitSize([mapContainer.innerWidth(), mapContainer.innerHeight() * 1.5], sfMesh);
+    projection.fitSize([mapContainer.innerWidth(), mapContainer.innerHeight() * 1.25], sfMesh);
 
-    svg.select('path')
-      .attr('d', geoPath(sfMesh));
+    venues.forEach(venue => {
+      const point = projection(venue.location.slice().reverse());
 
-    const venuePoints = venueGroup.selectAll('circle').data(venues, venue => venue.venueId);
+      baseMapGroup.select('path')
+        .attr('d', geoPath(sfMesh));
 
-    venuePoints.join('circle')
-      .attr('class', 'venue')
-      .attr('r', 10)
-      .attr('cx', venue => projection(venue.location.slice().reverse())[0])
-      .attr('cy', venue => projection(venue.location.slice().reverse())[1]);
+      d3.select(`#${venue.venueId}`)
+        .style('left', `${point[0]}px`)
+        .style('top', `${point[1]}px`);
+    });
+
+
   }
+
 });
