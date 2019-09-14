@@ -54,11 +54,17 @@ body {
     stroke: rgba(255, 255, 255, 50%);
     stroke-width: 0.5;
   }
+}
 
-  .venue {
-    stroke: black;
-    stroke-width: 0.5;
-    fill: green;
+#video-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  iframe {
+    position: absolute;
+    width: 24px;
+    height: 18px;
   }
 }
 
