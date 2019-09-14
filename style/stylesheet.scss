@@ -1,29 +1,34 @@
 // Add your Sass-style CSS here!
-html, body {
+
+$body-background: #fce8ba;
+$card-background: #0a5870;
+
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.map-canvas {
-  background-color: red;
+.background {
+  background-color: $body-background;
   width: 100%;
   height: 100%;
+  // probably also a display grid
 }
 
 .show-card {
   position: absolute;
-  bottom: 0px;
-  z-index: 100;
+  bottom: 24px;
+  left: 24px;
 
-  background-color: blue;
-  width: 90%;
-  height: 200px;
+  background-color: $card-background;
+  width: 75%;
+  height: 30%;
   border-radius: 30px;
+
+  // Un-comment to start card as hidden
+  // display: none;
+
+  // display grid
 }

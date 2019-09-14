@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>The Music Map</title>
-    <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="style/stylesheet.css" type="text/css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="scripts/script.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class='map-canvas'></div>
-    <div class='show-card'></div>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <div class="background">
+      <h1>The Music Map</h1>
+      <!-- Placeholder button to show the card -->
+      <button id="showCardButton">Show/Hide Card</button> <div id='map'
+    </div>
+    <div id="card" class="show-card">
+      <div id="bandName">Sample Band Name</div>
+      <div id="description">Playing at The Venue on 11/11/20</div>
+      <div id="videoEmbed"></div>
+    </div>
   </body>
 </html>
