@@ -15,18 +15,7 @@ let venues = [
 ]
 
 let videos = [
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
-{artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"}
 {artist: "The Marias", video: "https://www.youtube.com/watch?v=YzKM5g_FwYU",  venueId: "swedish"},
+
 
 ]
