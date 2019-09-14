@@ -24,6 +24,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+#title{
+  font-family: 'Righteous', cursive;
+
+}
 
 #map {
   width: 100%;
@@ -43,6 +47,10 @@ body {
   stroke: black;
   stroke-width: 0.5;
   fill: green;
+}
+
+#delorian{
+  width: 100px;
 }
 
 .show-card {
