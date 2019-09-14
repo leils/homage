@@ -1,5 +1,8 @@
-// Add your Sass-style CSS here!
+// Add your CSS here!
+// You can also use SASS syntax to make things easier.
+// Sass will convert everything into regulator CSS. See the readme for installation.
 
+// Variables
 $body-background: #fce8ba;
 $card-background: #0a5870;
 
@@ -8,27 +11,70 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
+h1,
+h2 {
+  // Just making the margins smaller
+  margin: 4px 0;
+}
+
+// The background is the div holding our title and the map.
 .background {
   background-color: $body-background;
   width: 100%;
   height: 100%;
-  // probably also a display grid
+  padding: 8px;
+
+  // Makes sure everything is centered and upright
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  padding: 24px;
+  height: 80%;
+  width: 80%;
+  border: 3px solid black;
 }
 
 .show-card {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
-
   background-color: $card-background;
-  width: 75%;
-  height: 30%;
+  color: white;
+
+  min-width: 75%;
+  min-height: 30%;
   border-radius: 30px;
+  padding: 16px;
+  overflow: hide;
 
-  // Un-comment to start card as hidden
-  // display: none;
+  // Makes sure that our two inner divs show up side-by-side
+  display: flex;
+  flex-direction: row;
 
-  // display grid
+  position: absolute;
+  // Bottom -100% defaults the card to being off-screen
+  bottom: -100%;
+  left: 24px;
+  transition: bottom ease 1s;
+
+  &.visible {
+    // Moves the card up into visible space
+    bottom: 24px;
+  }
+
+  .blurb {
+    max-width: 30%;
+    padding: 4px;
+  }
+
+  #videoEmbed {
+    border: 3px solid black;
+    background-color: white;
+    height: 250px;
+    width: 380px;
+  }
 }

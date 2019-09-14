@@ -11,14 +11,24 @@
     <script src="scripts/script.js" type="text/javascript"></script>
   </head>
   <body>
+    <!-- The main part of the page: the map -->
     <div class="background">
       <h1>The Music Map</h1>
-      <!-- Placeholder button to show the card -->
-      <button id="showCardButton">Show/Hide Card</button> <div id='map'
+      <!--
+        Placeholder button to show the card. Hopefully our venues will replace this.
+      -->
+      <button id="showCardButton">Show/Hide Card</button>
+      <div id="map" <div class="map"><!-- TODO map stuff here --></div>
     </div>
+
+    <!--
+      The card for all of our information & music. This starts off-screen, so you can see the whole map.
+    -->
     <div id="card" class="show-card">
-      <div id="bandName">Sample Band Name</div>
-      <div id="description">Playing at The Venue on 11/11/20</div>
+      <div class="blurb">
+        <h2 id="bandName">Sample Band Name</h2>
+        <p id="description">Playing at The Venue on 11/11/20</p>
+      </div>
       <div id="videoEmbed"></div>
     </div>
   </body>

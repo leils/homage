@@ -3,22 +3,59 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  overflow: hidden;
+}
+
+h1,
+h2 {
+  margin: 4px 0;
 }
 
 .background {
   background-color: #fce8ba;
   width: 100%;
   height: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  padding: 24px;
+  height: 80%;
+  width: 80%;
+  border: 3px solid black;
 }
 
 .show-card {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
   background-color: #0a5870;
-  width: 75%;
-  height: 30%;
+  color: white;
+  min-width: 75%;
+  min-height: 30%;
   border-radius: 30px;
+  padding: 16px;
+  overflow: hide;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: -100%;
+  left: 24px;
+  transition: bottom ease 1s;
+}
+.show-card.visible {
+  bottom: 24px;
+}
+.show-card .blurb {
+  max-width: 30%;
+  padding: 4px;
+}
+.show-card #videoEmbed {
+  border: 3px solid black;
+  background-color: white;
+  height: 250px;
+  width: 380px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
