@@ -11,10 +11,13 @@ h2 {
   margin: 4px 0;
 }
 
-.background {
+body {
   background-color: #fce8ba;
+  display: flex;
+}
+
+.background {
   width: 100%;
-  height: 100%;
   padding: 8px;
   display: flex;
   flex-direction: column;
@@ -22,11 +25,19 @@ h2 {
   align-items: center;
 }
 
-.map {
-  padding: 24px;
-  height: 80%;
-  width: 80%;
-  border: 3px solid black;
+#map {
+  width: 100%;
+  margin: 2%;
+  flex-grow: 1;
+  display: flex;
+}
+#map > svg {
+  flex-grow: 1;
+}
+#map path {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
 }
 
 .show-card {
