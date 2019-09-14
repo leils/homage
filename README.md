@@ -8,5 +8,3 @@ A small website to pay homage to ______, for a Gray Area project.
 
 ## An intro to basic git stuff
 [Git Guide](https://rogerdudler.github.io/git-guide/)
-
-Collaborators:

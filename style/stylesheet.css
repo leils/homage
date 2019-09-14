@@ -1,1 +1,24 @@
-/* Don't touch, this gets generated */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.background {
+  background-color: #fce8ba;
+  width: 100%;
+  height: 100%;
+}
+
+.show-card {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background-color: #0a5870;
+  width: 75%;
+  height: 30%;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
