@@ -1,5 +1,6 @@
 # homage
 A small website to pay homage to ______, for a Gray Area project.
+Visit it [here](http://leiac.me/homage/)
 
 ## Getting Sass to make the CSS
 1. [Get Sass installed!](https://sass-lang.com/install). I recommend the last thing on the page: using [Homebrew](https://brew.sh) on a Mac, and running `brew install sass/sass/sass`
