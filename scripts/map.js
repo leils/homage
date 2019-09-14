@@ -2,8 +2,6 @@ $(document).ready(() => {
   const svg = d3.select('#map').append('svg');
   const videoLayer = d3.select('#map').append('div').attr('id', 'video-layer');
 
-  // Add separate groups for the base map and the venue points to ensure the venues render on top
-  // of the map. Order matters!
   const baseMapGroup = svg.append('g');
 
   // California Albers projection, see:
@@ -36,7 +34,7 @@ $(document).ready(() => {
   function resizeMap() {
     const mapContainer = $('#map');
 
-    projection.fitSize([mapContainer.innerWidth(), mapContainer.innerHeight() * 1.25], sfMesh);
+    projection.fitSize([mapContainer.innerWidth(), mapContainer.innerHeight()], sfMesh);
 
     venues.forEach(venue => {
       const point = projection(venue.location.slice().reverse());
