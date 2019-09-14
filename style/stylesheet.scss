@@ -3,7 +3,7 @@
 // Sass will convert everything into regulator CSS. See the readme for installation.
 
 // Variables
-$body-background: #fce8ba;
+$body-background: linear-gradient(0, rgb(50, 50, 50) 0%, rgb(100, 90, 100) 100%);
 $card-background: #0a5870;
 
 html,
@@ -21,7 +21,7 @@ h2 {
 }
 
 body {
-  background-color: $body-background;
+  background: $body-background;
   display: flex;
 }
 
@@ -49,8 +49,14 @@ body {
 
   path {
     fill: none;
+    stroke: rgba(255, 255, 255, 50%);
+    stroke-width: 0.5;
+  }
+
+  .venue {
     stroke: black;
-    stroke-width: 1;
+    stroke-width: 0.5;
+    fill: green;
   }
 }
 
