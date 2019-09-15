@@ -10,7 +10,7 @@ $(document).ready(() => {
   const geoPath = d3.geoPath().projection(projection);
   let sfMesh;
 
-  d3.json('../sf/streets.json').then(sf => {
+  d3.json('sf/streets.json').then(sf => {
     sfMesh = topojson.mesh(sf);
 
     baseMapGroup.append('path');
